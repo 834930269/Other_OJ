@@ -74,7 +74,7 @@ struct Kruskal{
             if(find_Root(h.from)==find_Root(h.to))continue;
             unite(h.from,h.to);
         }
-        printf("%d\n",h.d);
+        printf("%d\n",h. d);
     }
 }K;
 
